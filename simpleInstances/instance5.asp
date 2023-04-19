@@ -15,3 +15,9 @@ prefRegion(18,4000,2).
 externalMaxDamage(2500).
 
 % expected result (optimum): assign(8, 17)
+
+
+
+
+
+

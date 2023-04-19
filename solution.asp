@@ -89,9 +89,9 @@ caseRegionMismatchFactor(COST) :- COST = #sum{3-PREF, CID, RID: assign(CID, RID)
 
 
 % Optimizing the Cost function: 16.totalNewExPay + 7*divergenceOverallExPay + 9*divergenceOverallWorkLoad + 34*caseTypeMismatchFactor + 34*caseRegionMismatchFactor
-#minimize{16*C1+ 7*C2+ 9*C3+ 34*C4 + 34*C5: totalNewExPay(C1),  divergenceOverallExPay(C2), divergenceOverallWorkLoad(C3), caseTypeMismatchFactor(C4), caseRegionMismatchFactor(C5)}.
+% #minimize{16*C1+ 7*C2+ 9*C3+ 34*C4 + 34*C5: totalNewExPay(C1),  divergenceOverallExPay(C2), divergenceOverallWorkLoad(C3), caseTypeMismatchFactor(C4), caseRegionMismatchFactor(C5)}.
 
 
 %% Display 
-#show assign/2.
+% #show assign/2.
 % #show newWorkLoad/2.
